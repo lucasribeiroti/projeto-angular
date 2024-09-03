@@ -1,13 +1,14 @@
-<!-- app.component.html -->
-<div class="app-container">
-  <app-cabecalho></app-cabecalho>
-  
-  <div class="main-content">
-    <app-menu-opcoes></app-menu-opcoes>
-    <main class="content">
-      <router-outlet></router-outlet>
-    </main>
-  </div>
-  
-  <app-rodape></app-rodape>
+<header class="cabecalho">
+  <nav>
+      <ul>
+          <li><a routerLink="/pagina-principal" routerLinkActive="active">Página Principal</a></li>
+          <li><a routerLink="/sobre" routerLinkActive="active">Sobre</a></li>
+          <li><a routerLink="/personagens" routerLinkActive="active">Personagens</a></li>
+          <li><a routerLink="/temporadas" routerLinkActive="active">Temporadas</a></li>
+        </ul>
+  </nav>
+</header>
+
+<div class="main-content">
+  <router-outlet></router-outlet>
 </div>

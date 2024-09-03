@@ -1,0 +1,46 @@
+.temporadas {
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    h2 {
+      color: #e74c3c;
+      font-size: 2.5em;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #e74c3c;
+      padding-bottom: 10px;
+    }
+  
+    p {
+      font-size: 1.2em;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+  
+    @media (max-width: 768px) {
+      padding: 15px;
+  
+      h2 {
+        font-size: 2em;
+      }
+  
+      p {
+        font-size: 1em;
+      }
+    }
+  
+    @media (max-width: 480px) {
+      padding: 10px;
+  
+      h2 {
+        font-size: 1.8em;
+      }
+  
+      p {
+        font-size: 0.9em;
+      }
+    }
+  }
+  
