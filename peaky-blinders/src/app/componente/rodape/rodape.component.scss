@@ -1,0 +1,42 @@
+/* Estilos globais */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; /* Faz com que o conteúdo principal se expanda para preencher o espaço disponível */
+}
+
+/* Estilo para o rodapé */
+.rodape {
+    background-color: #212529; /* Cor de fundo escura para o rodapé */
+    color: #fff; /* Texto branco */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar o rodapé */
+    padding: 1rem; /* Adiciona um pouco de preenchimento */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+.rodape .container {
+    max-width: 1200px; /* Largura máxima do container */
+    margin: 0 auto; /* Centraliza o container */
+}
+
+.rodape p {
+    margin: 0;
+    font-size: 0.9rem; /* Tamanho da fonte do rodapé */
+}
+
+@media (max-width: 768px) {
+    .rodape p {
+      font-size: 0.8rem; /* Tamanho da fonte ajustado para dispositivos móveis */
+    }
+}

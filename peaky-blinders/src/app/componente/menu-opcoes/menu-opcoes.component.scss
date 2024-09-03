@@ -1,50 +1,28 @@
-/* Estilo para o menu lateral */
-.menu-lateral {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 250px; /* Largura do menu */
-    height: 100%;
-    background-color: #343a40; /* Fundo escuro */
-    color: #fff; /* Texto branco */
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3); /* Sombra para separar do conteúdo */
-    z-index: 1000; /* Garantir que o menu esteja acima de outros conteúdos */
-    padding-top: 20px; /* Espaçamento no topo */
+/* Estilos do menu de navegação */
+.navbar {
+    position: fixed; /* Fixa o menu na tela */
+    top: 50%; /* Posiciona o topo do menu na metade da altura da tela */
+    left: 0; /* Posiciona o menu na borda esquerda */
+    transform: translateY(-50%); /* Centraliza verticalmente o menu */
+    width: 250px; /* Define a largura do menu */
+    background-color: #343a40; /* Cor de fundo do menu */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra para destaque */
+    z-index: 1000; /* Garante que o menu fique acima de outros elementos */
   }
   
   .nav-link {
-    color: #ddd; /* Cor dos links */
-    padding: 10px 20px;
-    text-decoration: none; /* Remove o sublinhado dos links */
-    font-size: 1.1rem; /* Tamanho da fonte */
-    transition: background-color 0.3s, color 0.3s; /* Transição suave para hover */
+    color: #fff; /* Cor do texto dos links */
+    font-size: 1rem; /* Tamanho da fonte */
+    transition: color 0.3s; /* Transição suave para hover */
   }
   
-  .nav-link.active, .nav-link:hover {
-    color: #fff; /* Cor do texto quando ativo ou em hover */
+  .nav-link:hover, .nav-link.active {
+    color: #f8f9fa; /* Cor do texto quando ativo ou em hover */
     background-color: #495057; /* Cor de fundo quando ativo ou em hover */
-    border-radius: 5px; /* Bordas arredondadas */
+    border-radius: 4px; /* Bordas arredondadas */
   }
   
-  .nav-link.active {
-    font-weight: bold; /* Destacar o link ativo */
-  }
-  
-  /* Ajustar o conteúdo para não sobrepor o menu lateral */
-  body {
-    margin-left: 250px; /* Deixe espaço para o menu lateral */
-    transition: margin-left 0.3s; /* Transição suave ao ajustar o espaço */
-  }
-  
-  @media (max-width: 768px) {
-    .menu-lateral {
-      width: 100%; /* Menu ocupa toda a largura da tela em dispositivos móveis */
-      height: auto;
-      position: relative;
-      box-shadow: none; /* Remove a sombra para dispositivos móveis */
-    }
-  
-    body {
-      margin-left: 0; /* Remove o espaço lateral em dispositivos móveis */
-    }
+  .navbar-brand {
+    font-size: 1.5rem; /* Tamanho da fonte da marca */
+    color: #fff; /* Cor da marca */
   }

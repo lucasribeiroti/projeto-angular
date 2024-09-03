@@ -1,1 +1,13 @@
-<app-cabecalho></app-cabecalho>
+<!-- app.component.html -->
+<div class="app-container">
+  <app-cabecalho></app-cabecalho>
+  
+  <div class="main-content">
+    <app-menu-opcoes></app-menu-opcoes>
+    <main class="content">
+      <router-outlet></router-outlet>
+    </main>
+  </div>
+  
+  <app-rodape></app-rodape>
+</div>
