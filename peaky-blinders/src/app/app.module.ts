@@ -3,18 +3,24 @@ import { BrowserModule, provideClientHydration } from '@angular/platform-browser
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomePageComponent } from './home-page/home-page.component';
-import { SobreComponent } from './sobre/sobre.component';
-import { PersonagensComponent } from './personagens/personagens.component';
-import { TemporadasComponent } from './temporadas/temporadas.component';
+import { SobreComponent } from './paginas/sobre/sobre.component';
+import { PersonagensComponent } from './paginas/personagens/personagens.component';
+import { TemporadasComponent } from './paginas/temporadas/temporadas.component';
+import { PaginaPrincipalComponent } from './paginas/pagina-principal/pagina-principal.component';
+import { CabecalhoComponent } from './componente/cabecalho/cabecalho.component';
+import { RodapeComponent } from './componente/rodape/rodape.component';
+import { MenuOpcoesComponent } from './componente/menu-opcoes/menu-opcoes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomePageComponent,
     SobreComponent,
     PersonagensComponent,
-    TemporadasComponent
+    TemporadasComponent,
+    PaginaPrincipalComponent,
+    CabecalhoComponent,
+    RodapeComponent,
+    MenuOpcoesComponent
   ],
   imports: [
     BrowserModule,
