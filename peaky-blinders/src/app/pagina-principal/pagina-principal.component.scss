@@ -1,27 +1,27 @@
 .pagina-principal {
-  max-width: 800px; /* Limita a largura máxima do conteúdo */
-  margin: 40px 0; /* Adiciona margem superior e inferior */
+  max-width: 800px;
+  margin: 40px 0;
   padding: 20px;
 }
 
 .intro {
-  background-color: #444; /* Cor de fundo do balão */
-  color: #fff; /* Cor do texto */
-  border-radius: 15px; /* Bordas arredondadas para o efeito de balão */
+  background-color: #444;
+  color: #fff;
+  border-radius: 15px;
   padding: 20px;
-  position: relative; /* Necessário para a seta do balão */
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidade */
-  margin-left: 0; /* Alinha o balão à esquerda */
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  margin-left: 0;
 }
 
 .intro::after {
   content: "";
   position: absolute;
-  bottom: -20px; /* Posiciona a seta abaixo do balão */
-  left: 30px; /* Ajuste a posição horizontal da seta conforme necessário */
-  border-width: 10px; /* Tamanho da seta */
+  bottom: -20px;
+  left: 30px;
+  border-width: 10px;
   border-style: solid;
-  border-color: #444 transparent transparent transparent; /* Define a cor da seta */
+  border-color: #444 transparent transparent transparent;
 }
 
 .intro h2 {
@@ -38,47 +38,310 @@
 }
 
 .pagina-principal {
-  max-width: 800px; /* Limita a largura máxima do conteúdo */
-  margin: 40px auto; /* Centraliza horizontalmente e adiciona margem superior e inferior */
+  max-width: 800px;
+  margin: 40px auto;
   padding: 20px;
 }
 
 .intro, .background {
-  background-color: #444; /* Cor de fundo do balão */
-  color: #fff; /* Cor do texto */
-  border-radius: 15px; /* Bordas arredondadas para o efeito de balão */
+  background-color: #444;
+  color: #fff;
+  border-radius: 15px;
   padding: 20px;
-  position: relative; /* Necessário para a seta do balão */
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidade */
-  margin-left: 0; /* Alinha o balão à esquerda */
-  max-width: 800px; /* Limita a largura máxima do balão */
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  margin-left: 0;
+  max-width: 800px;
 }
 
 .intro::after, .background::after {
   content: "";
   position: absolute;
-  bottom: -20px; /* Posiciona a seta abaixo do balão */
-  left: 30px; /* Ajusta a posição horizontal da seta conforme necessário */
-  border-width: 10px; /* Tamanho da seta */
+  bottom: -20px;
+  left: 30px;
+  border-width: 10px;
   border-style: solid;
-  border-color: #444 transparent transparent transparent; /* Define a cor da seta */
+  border-color: #444 transparent transparent transparent;
 }
 
 .intro {
-  margin-bottom: 40px; /* Adiciona margem inferior para separação das seções */
+  margin-bottom: 40px;
 }
 
 .background {
-  margin-bottom: 40px; /* Adiciona margem inferior para separação das seções */
+  margin-bottom: 40px;
 }
 
 .intro h2, .background h3 {
   margin-top: 0;
-  font-size: 24px; /* Ajuste conforme o estilo desejado */
+  font-size: 24px;
   color: #fff;
 }
 
 .intro p, .background p {
+  margin-bottom: 0;
+  color: #ccc;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.background {
+  background-color: #444;
+  color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  margin-left: 0;
+  max-width: 800px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.background::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 30px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #444 transparent transparent transparent;
+}
+
+.background h3 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.background p {
+  margin-bottom: 0;
+  color: #ccc;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.plot-overview {
+  background-color: #555;
+  color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  margin-left: 0;
+  max-width: 800px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.plot-overview::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 30px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+} /* Fechando o ::after */
+
+.plot-overview h3 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.plot-overview p {
+  margin-bottom: 0;
+  color: #ccc;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.personagens {
+  background-color: #555;
+  color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  margin-left: 0;
+  max-width: 800px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.personagens::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 30px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.personagens h3 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.personagens ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.personagens li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ccc;
+}
+
+.personagens li::before {
+  content: "•";
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-right: 0.5em;
+}
+
+.personagens strong {
+  color: #fff;
+  font-weight: bold;
+}
+
+.temas {
+  background-color: #666; /* Cor de fundo diferenciada */
+  color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  margin-left: 0;
+  max-width: 800px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.temas::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 30px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #666 transparent transparent transparent;
+}
+
+.temas h3 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.temas p {
+  margin-bottom: 10px; /* Espaço entre o parágrafo e a lista */
+  color: #ccc;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.temas ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.temas li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ccc;
+}
+
+.temas li::before {
+  content: "•";
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-right: 0.5em;
+}
+
+.temas strong {
+  color: #fff;
+  font-weight: bold;
+}
+
+.impacto-cultural {
+  background-color: #777; /* Cor de fundo diferenciada */
+  color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  margin-left: 0;
+  max-width: 800px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.impacto-cultural::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 30px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #777 transparent transparent transparent;
+}
+
+.impacto-cultural h3 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.impacto-cultural p {
+  margin-bottom: 20px;
+  color: #ccc;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.conclusion {
+  background-color: #888; /* Cor de fundo um pouco mais clara */
+  color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  margin-left: 0;
+  max-width: 800px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.conclusion::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 30px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #888 transparent transparent transparent;
+}
+
+.conclusion h3 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.conclusion p {
   margin-bottom: 0;
   color: #ccc;
   font-size: 16px;
